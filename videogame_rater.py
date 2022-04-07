@@ -2,6 +2,15 @@
 # videogame_rater.py
 # Rates video games
 
+def print_dictionary(dictionary):
+    """
+    Accepts a dictionary, loops through it and prints
+    out the game and its rating
+    """
+    for game, rating in dictionary.items():
+        print("Game: {}\tRating: {}".format(game, rating))
+
+
 if __name__ == "__main__":
 
     
